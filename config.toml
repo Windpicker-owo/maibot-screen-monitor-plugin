@@ -1,0 +1,20 @@
+[plugin]
+name = "screen_monitor_plugin"
+version = "1.0.0"
+config_version = "1.0.2"
+enabled = false
+
+[monitor]
+username = "default_user"
+interval = 60
+retention_minutes = 5
+
+[vlm]
+base_url = "http://localhost:8000/v1"
+api_key = ""
+model = "gpt-4-vision"
+
+[llm]
+base_url = "http://localhost:8000/v1"
+api_key = ""
+model = "gpt-4"

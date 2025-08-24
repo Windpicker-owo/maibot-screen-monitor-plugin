@@ -1,0 +1,20 @@
+{
+    "manifest_version": 1,
+    "name": "screen_monitor_plugin",
+    "version": "1.0.0",
+    "description": "让麦麦视奸你",
+    "author": {"name": "Windpicker_owo", "url": "https://github.com/your-username"},
+    "license": "MIT",
+    "host_application": {"min_version": "0.10.1", "max_version": "0.10.1"},
+    "homepage_url": "https://github.com/your-repo",
+    "repository_url": "https://github.com/your-repo",
+    "keywords": ["screen", "monitor"],
+    "categories": ["Monitor"],
+    "default_locale": "zh-CN",
+    "locales_path": "_locales",
+    "plugin_info": {
+        "is_built_in": false,
+        "plugin_type": "general",
+        "components": [{"type": "tool", "name": "screen_monitor", "description": "定期截图分析用户屏幕变化"}]
+    }
+}
