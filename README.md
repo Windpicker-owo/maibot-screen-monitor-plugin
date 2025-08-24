@@ -43,7 +43,7 @@ name = "screen_monitor_plugin"
 enabled = true  # 设为false可以让麦麦暂时失明
 
 [monitor]
-username = "小可怜"  # 麦麦会这样称呼你
+username = "小可怜"  # 麦麦会知道视奸的谁
 interval = 60  # 每60秒视奸一次，可以调得更频繁（坏笑）
 retention_minutes = 30  # 记住你30分钟的黑历史
 
