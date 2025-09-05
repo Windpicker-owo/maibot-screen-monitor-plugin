@@ -30,4 +30,4 @@ screenshots/
 temp/
 
 # Configuration
-config.local.toml
+config.toml
